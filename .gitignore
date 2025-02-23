@@ -1,0 +1,32 @@
+# Ignore all node_modules directories anywhere in the project
+**/node_modules/
+
+# Ignore build/output directories for Vite apps
+**/dist/
+
+# Ignore environment-specific files
+**/.env
+**/.env.local
+
+# Ignore OS-specific files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log files
+*.log           # Any .log file in the current directory
+**/*.log        # Any .log file anywhere in the project
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore lock files if you want to manage dependencies manually
+# Uncomment the following lines if you don't want to commit lock files
+# **/package-lock.json
+# **/yarn.lock
